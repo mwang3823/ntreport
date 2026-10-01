@@ -607,7 +607,6 @@
     b.addEventListener('click', () => go(tops[i].top));
     dotsNav.appendChild(b);
   });
-  document.getElementById('total').textContent = String(scenes.length).padStart(2, '0');
 
   let current = -1, ticking = false;
   function update() {
@@ -624,7 +623,6 @@
     const ci = Math.max(0, tops.findIndex(t => mid >= t.top && mid < t.top + t.h));
     if (ci !== current) {
       current = ci;
-      document.getElementById('cur').textContent = String(ci + 1).padStart(2, '0');
       [...dotsNav.children].forEach((b, i) => b.classList.toggle('on', i === ci));
       fillNotes();
     }
@@ -674,9 +672,7 @@
       else document.documentElement.requestFullscreen?.().catch(() => {});
     } catch (_) { /* không hỗ trợ */ }
   }
-  document.getElementById('btn-notes').addEventListener('click', toggleNotes);
   document.getElementById('notes-close').addEventListener('click', toggleNotes);
-  document.getElementById('btn-full').addEventListener('click', toggleFull);
 
   measure();
   update();

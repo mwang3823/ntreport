@@ -23,9 +23,7 @@
 <header class="topbar">
   <div class="brand"><img src="assets/logo.png" alt="Logo PHUWACO">PHUWACO Works <span>· Nghiệm thu Module Báo cáo</span></div>
   <div class="spacer"></div>
-  <div class="counter num"><b id="cur">01</b> / <span id="total">11</span></div>
-  <button class="tb-btn" id="btn-notes" type="button">Kịch bản <kbd>N</kbd></button>
-  <button class="tb-btn" id="btn-full" type="button">Toàn màn hình <kbd>F</kbd></button>
+  <div class="brand wao"><img src="assets/logo_wao.jpg" alt="Logo Công ty WAO"><span>Thực hiện:</span>Công ty WAO</div>
 </header>
 <nav class="dots" id="dots" aria-label="Điều hướng phần"></nav>
 
@@ -45,7 +43,10 @@
           <div><small>Ngày nghiệm thu</small><b>06/10/2026</b></div>
           <div><small>Phạm vi</small><b>Tổng quan + 14 tab</b></div>
         </div>
-        <p class="hero-org">Công ty Cổ phần Cấp nước Phú Hòa Tân</p>
+        <div class="orgs">
+          <div class="org"><img src="assets/logo.png" alt=""><div><small>Đơn vị sử dụng</small><b>Công ty CP Cấp nước Phú Hòa Tân</b></div></div>
+          <div class="org"><img src="assets/logo_wao.jpg" alt=""><div><small>Đơn vị thực hiện</small><b>Công ty WAO</b></div></div>
+        </div>
         <div class="hero-chips" data-at="1">
           <span>17 thẻ chỉ số</span><span>14 tab báo cáo</span><span>Biểu đồ &amp; bảng</span><span>Số liệu từ hệ thống</span>
         </div>
@@ -493,7 +494,7 @@
       <div class="demo-path" data-at="1">
         <span>Mở Báo cáo</span><i>→</i><span>Tổng quan</span><i>→</i><span>Chạm KPI</span><i>→</i><span>Lọc dữ liệu</span><i>→</i><span>Biểu đồ / Bảng</span><i>→</i><span>Làm mới</span>
       </div>
-      <p class="data-src" data-at="1" data-v="srcNote"></p>
+      <p class="data-src" data-at="1">Ngày nghiệm thu: <b>06/10/2026</b></p>
     </div>
   </div>
   <template class="note">
@@ -501,6 +502,33 @@
     <p>Phần trình bày đã đi qua toàn bộ module, từ màn hình tổng quan đến 14 tab chi tiết. Bây giờ chúng tôi xin demo trực tiếp trên ứng dụng để anh chị kiểm tra thao tác và đối chiếu số liệu với nghiệp vụ. Trong lúc demo, anh chị có thể yêu cầu mở bất kỳ báo cáo hoặc bộ lọc nào.</p>
     <h6>Demo</h6>
     <p>Mở Báo cáo → kiểm tra tổng quan → chạm từng KPI → đổi bộ lọc vài thẻ tiêu biểu → chuyển Biểu đồ/Bảng → kéo làm mới → thử trạng thái mất mạng.</p>
+  </template>
+</section>
+
+<!-- ============ 12. ĐỀ XUẤT NGHIỆM THU ============ -->
+<section class="scene" id="s12" data-steps="5" data-band="42" data-title="Đề xuất nghiệm thu">
+  <div class="stage">
+    <div class="stage-inner">
+      <div class="head">
+        <span class="eyebrow"><i></i>Bước tiếp theo</span>
+        <h2 class="h2">Đề xuất nghiệm thu Module Báo cáo</h2>
+      </div>
+      <div class="next" data-dim>
+        <article class="card nx" data-at="1" data-focus="1"><span class="nx-n">01</span><div class="icon-badge"><i data-ic="search"></i></div><h3>Đối chiếu số liệu</h3><p>Đối chiếu số liệu trên app với số liệu nghiệp vụ các phòng ban</p></article>
+        <article class="card nx" data-at="2" data-focus="2"><span class="nx-n">02</span><div class="icon-badge"><i data-ic="headset"></i></div><h3>Ghi nhận góp ý</h3><p>Tổng hợp ý kiến sau demo, thống nhất nội dung cần điều chỉnh</p></article>
+        <article class="card nx" data-at="3" data-focus="3"><span class="nx-n">03</span><div class="icon-badge"><i data-ic="shield"></i></div><h3>Ký biên bản nghiệm thu</h3><p>Xác nhận phạm vi: màn tổng quan và 14 tab báo cáo</p></article>
+        <article class="card nx" data-at="4" data-focus="4"><span class="nx-n">04</span><div class="icon-badge"><i data-ic="phone"></i></div><h3>Đưa vào sử dụng</h3><p>Bàn giao tài liệu hướng dẫn sử dụng, hỗ trợ vận hành</p></article>
+      </div>
+      <div class="sign" data-at="5">
+        <div class="org"><img src="assets/logo.png" alt=""><div><small>Đơn vị sử dụng</small><b>Công ty CP Cấp nước Phú Hòa Tân</b></div></div>
+        <div class="sign-mid"><b>Trân trọng cảm ơn</b><small>Ngày nghiệm thu 06/10/2026</small></div>
+        <div class="org"><img src="assets/logo_wao.jpg" alt=""><div><small>Đơn vị thực hiện</small><b>Công ty WAO</b></div></div>
+      </div>
+    </div>
+  </div>
+  <template class="note">
+    <h6>Kịch bản</h6>
+    <p>Sau phần demo, chúng tôi đề xuất bốn bước tiếp theo: đối chiếu số liệu trên app với số liệu nghiệp vụ, ghi nhận góp ý của anh chị, ký biên bản nghiệm thu và đưa module vào sử dụng chính thức kèm tài liệu hướng dẫn. Xin cảm ơn anh chị đã theo dõi.</p>
   </template>
 </section>
 
