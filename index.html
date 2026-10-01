@@ -1,0 +1,517 @@
+<!doctype html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Nghiệm thu Module Báo cáo</title>
+<link rel="icon" href="assets/logo.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700;800&display=swap">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="progress" aria-hidden="true"></div>
+<div class="bg-logo" aria-hidden="true"><img src="assets/logo.png" alt=""></div>
+<svg class="bg-waves" viewBox="0 0 1600 300" preserveAspectRatio="none" aria-hidden="true">
+  <path d="M0 160 C 200 110 400 210 600 160 S 1000 110 1200 160 S 1500 210 1700 160"/>
+  <path d="M0 200 C 220 150 420 250 640 200 S 1060 150 1280 200 S 1540 250 1760 200"/>
+  <path d="M0 240 C 240 200 440 280 680 240 S 1120 200 1360 240 S 1580 280 1800 240"/>
+</svg>
+
+<header class="topbar">
+  <div class="brand"><img src="assets/logo.png" alt="Logo PHUWACO">PHUWACO Works <span>· Nghiệm thu Module Báo cáo</span></div>
+  <div class="spacer"></div>
+  <div class="counter num"><b id="cur">01</b> / <span id="total">11</span></div>
+  <button class="tb-btn" id="btn-notes" type="button">Kịch bản <kbd>N</kbd></button>
+  <button class="tb-btn" id="btn-full" type="button">Toàn màn hình <kbd>F</kbd></button>
+</header>
+<nav class="dots" id="dots" aria-label="Điều hướng phần"></nav>
+
+<main>
+
+<!-- ============ 1. BÌA ============ -->
+<section class="scene" id="s1" data-steps="1" data-title="Giới thiệu">
+  <div class="stage">
+    <div class="hero-band" aria-hidden="true"></div>
+    <div class="stage-inner hero">
+      <div class="intro">
+        <img class="hero-logo" src="assets/logo.png" alt="Logo Công ty Cổ phần Cấp nước Phú Hòa Tân">
+        <h1>Nghiệm thu<br><em>Module Báo cáo</em></h1>
+        <p class="sub">Ứng dụng PHUWACO Works</p>
+        <div class="hero-meta">
+          <div><small>Phiên bản</small><b>1.0</b></div>
+          <div><small>Ngày nghiệm thu</small><b>06/10/2026</b></div>
+          <div><small>Phạm vi</small><b>Tổng quan + 14 tab</b></div>
+        </div>
+        <p class="hero-org">Công ty Cổ phần Cấp nước Phú Hòa Tân</p>
+        <div class="hero-chips" data-at="1">
+          <span>17 thẻ chỉ số</span><span>14 tab báo cáo</span><span>Biểu đồ &amp; bảng</span><span>Số liệu từ hệ thống</span>
+        </div>
+      </div>
+      <div class="hero-visual">
+        <div class="ring r1" aria-hidden="true"></div>
+        <div class="ring r2" aria-hidden="true"></div>
+        <div class="phone-wrap"><div class="phone"><div class="scr" data-screen="overview"></div></div></div>
+      </div>
+    </div>
+    <div class="scroll-hint" aria-hidden="true"><i></i>Cuộn để bắt đầu</div>
+  </div>
+  <template class="note">
+    <h6>Kịch bản</h6>
+    <p>Kính chào anh chị. Hôm nay chúng tôi trình bày và đề nghị nghiệm thu Module Báo cáo trên ứng dụng PHUWACO Works, phiên bản 1.0. Module giúp cán bộ quản lý theo dõi các chỉ tiêu kinh doanh, vận hành và dịch vụ khách hàng ngay trên điện thoại. Số liệu trong bài được lấy trực tiếp từ hệ thống. Trước hết, chúng ta xem module này được xây dựng để giải quyết những nhu cầu gì.</p>
+    <h6>Demo</h6>
+    <p>Chưa thao tác. Để sẵn điện thoại ở màn hình chính, đã đăng nhập.</p>
+  </template>
+</section>
+
+<!-- ============ 2. MỤC TIÊU ============ -->
+<section class="scene" id="s2" data-steps="8" data-band="42" data-title="Mục tiêu">
+  <div class="stage">
+    <div class="stage-inner">
+      <div class="head">
+        <span class="eyebrow"><i></i>Mục tiêu &amp; phạm vi</span>
+        <h2 class="h2">Mục tiêu của Module Báo cáo</h2>
+      </div>
+      <div class="goals" data-dim>
+        <article class="card goal" data-at="1" data-focus="1"><div class="icon-badge"><i data-ic="chart"></i></div><span class="k">01</span><h3>Theo dõi</h3><p>Chỉ tiêu vận hành: thất thoát nước, gắn mới, dời, thay ĐHN</p></article>
+        <article class="card goal" data-at="2" data-focus="2"><div class="icon-badge"><i data-ic="search"></i></div><span class="k">02</span><h3>Phân tích</h3><p>Số liệu kinh doanh: khách hàng, sản lượng, doanh thu, GBBQ</p></article>
+        <article class="card goal" data-at="3" data-focus="3"><div class="icon-badge"><i data-ic="headset"></i></div><span class="k">03</span><h3>Giám sát</h3><p>Dịch vụ khách hàng: hồ sơ DVKH, KTKS, thu hộ, hóa đơn</p></article>
+        <article class="card goal" data-at="4" data-focus="4"><div class="icon-badge"><i data-ic="target"></i></div><span class="k">04</span><h3>Ra quyết định</h3><p>Dữ liệu trực quan, so sánh theo năm, kỳ, đợt, phường</p></article>
+      </div>
+      <div class="flow">
+        <div class="flow-node" data-at="5"><i data-ic="db"></i>Dữ liệu hệ thống</div>
+        <svg class="flow-arrow" data-at="6" viewBox="0 0 90 20"><line x1="0" y1="10" x2="78" y2="10"/><path d="M76 4 L88 10 L76 16z"/></svg>
+        <div class="flow-node" data-at="6"><i data-ic="report"></i>Báo cáo</div>
+        <svg class="flow-arrow" data-at="7" viewBox="0 0 90 20"><line x1="0" y1="10" x2="78" y2="10"/><path d="M76 4 L88 10 L76 16z"/></svg>
+        <div class="flow-node" data-at="7"><i data-ic="search"></i>Phân tích</div>
+        <svg class="flow-arrow" data-at="8" viewBox="0 0 90 20"><line x1="0" y1="10" x2="78" y2="10"/><path d="M76 4 L88 10 L76 16z"/></svg>
+        <div class="flow-node end" data-at="8"><i data-ic="target"></i>Quản lý</div>
+      </div>
+    </div>
+  </div>
+  <template class="note">
+    <h6>Kịch bản</h6>
+    <p>Module có bốn mục tiêu. Thứ nhất, theo dõi các chỉ tiêu vận hành như thất thoát nước và công tác đồng hồ nước. Thứ hai, phân tích số liệu kinh doanh. Thứ ba, giám sát tình hình xử lý hồ sơ khách hàng. Cuối cùng, cung cấp dữ liệu trực quan để lãnh đạo ra quyết định. Dữ liệu đi từ hệ thống nghiệp vụ, được tổng hợp thành báo cáo, phân tích theo nhiều chiều rồi phục vụ công tác quản lý. Tiếp theo là bức tranh tổng thể của module.</p>
+    <h6>Demo</h6>
+    <p>Không thao tác.</p>
+  </template>
+</section>
+
+<!-- ============ 3. SƠ ĐỒ TỔNG THỂ ============ -->
+<section class="scene" id="s3" data-steps="6" data-title="Sơ đồ tổng thể">
+  <div class="stage">
+    <div class="stage-inner">
+      <div class="head">
+        <span class="eyebrow"><i></i>Sơ đồ tổng thể</span>
+        <h2 class="h2">4 nhóm nghiệp vụ hội tụ về một module</h2>
+      </div>
+      <div class="diagram" id="diagram" data-dim>
+        <svg class="links" id="links" aria-hidden="true"></svg>
+        <div class="hub" data-at="1" data-link-hub>
+          <div><img src="assets/logo.png" alt=""><h3>PHUWACO Works<br>Module Báo cáo</h3><p>Tổng quan + 14 tab</p></div>
+        </div>
+        <article class="card cluster c-kd from-left" data-at="2" data-focus="2" data-link="2"><div class="c-head"><div class="icon-badge"><i data-ic="money"></i></div><div><h3>Kinh doanh</h3><small>Khách hàng, tiêu thụ, doanh thu</small></div></div>
+          <div class="chips"><span class="chip">Khách hàng</span><span class="chip">Sản lượng</span><span class="chip">Doanh thu</span><span class="chip">Giá bán bình quân</span></div></article>
+        <article class="card cluster c-vh from-right" data-at="3" data-focus="3" data-link="3"><div class="c-head"><div class="icon-badge"><i data-ic="gear"></i></div><div><h3>Vận hành</h3><small>Mạng lưới &amp; đồng hồ nước</small></div></div>
+          <div class="chips"><span class="chip">Thất thoát nước</span><span class="chip">Gắn mới ĐHN</span><span class="chip">Dời ĐHN</span><span class="chip">Thay ĐHN</span></div></article>
+        <article class="card cluster c-kh from-left" data-at="4" data-focus="4" data-link="4"><div class="c-head"><div class="icon-badge"><i data-ic="headset"></i></div><div><h3>Dịch vụ khách hàng</h3><small>Hồ sơ, thu tiền, hóa đơn</small></div></div>
+          <div class="chips"><span class="chip">Hồ sơ DVKH</span><span class="chip">Hồ sơ KTKS <small>· Kiểm tra kiểm soát</small></span><span class="chip">Thu hộ tiền nước</span><span class="chip">Hóa đơn</span></div></article>
+        <article class="card cluster c-cds from-right" data-at="5" data-focus="5" data-link="5"><div class="c-head"><div class="icon-badge"><i data-ic="phone"></i></div><div><h3>Chuyển đổi số</h3><small>Định danh &amp; kênh số</small></div></div>
+          <div class="chips"><span class="chip">Định danh CCCD</span><span class="chip">KH đã tải app Sawaco</span></div></article>
+      </div>
+    </div>
+  </div>
+  <template class="note">
+    <h6>Kịch bản</h6>
+    <p>Đây là sơ đồ tổng thể. Ở trung tâm là Module Báo cáo gồm màn hình tổng quan và 14 tab chi tiết. Bao quanh là bốn nhóm nghiệp vụ. Kinh doanh gồm khách hàng, sản lượng, doanh thu và giá bán bình quân. Vận hành gồm thất thoát nước và công tác gắn mới, dời, thay đồng hồ. Dịch vụ khách hàng gồm hồ sơ DVKH, hồ sơ kiểm tra kiểm soát, thu hộ và hóa đơn. Chuyển đổi số gồm định danh CCCD và khách hàng dùng app Sawaco. Tất cả hội tụ về một nơi để tra cứu.</p>
+    <h6>Demo</h6>
+    <p>Không thao tác.</p>
+  </template>
+</section>
+
+<!-- ============ 4. MÀN TỔNG QUAN ============ -->
+<section class="scene" id="s4" data-steps="5" data-title="Màn hình tổng quan">
+  <div class="stage">
+    <div class="stage-inner split">
+      <div class="phone-stage">
+        <div class="phone-wrap zoomable" id="s4-zoom" data-at="1" data-cls="spot spot-chart:=2; spot spot-kpi:=3; spot spot-sel:4-">
+          <div class="phone"><div class="scr" data-screen="overview" id="s4-scr"></div></div>
+        </div>
+      </div>
+      <div>
+        <div class="head">
+          <span class="eyebrow"><i></i>Người dùng nhìn thấy gì</span>
+          <h2 class="h2">Màn hình Báo cáo tổng quan</h2>
+        </div>
+        <div class="steps">
+          <div class="step" data-focus="1"><span class="n">1</span><div><h4>Một màn hình, toàn cảnh</h4><p>Chạm biểu tượng biểu đồ ở thanh điều hướng. Số liệu tự tải khi mở.</p></div></div>
+          <div class="step" data-focus="2"><span class="n">2</span><div><h4>Biểu đồ so sánh theo năm</h4><p>Đổi giữa Doanh thu, Giá bán bình quân, Sản lượng. Năm trước và năm nay theo từng kỳ.</p></div></div>
+          <div class="step" data-focus="3"><span class="n">3</span><div><h4>17 thẻ chỉ số (KPI)</h4><p>Số liệu năm hiện hành. Thẻ nào tải xong hiện trước.</p></div></div>
+          <div class="step" data-focus="4-5"><span class="n">4</span><div><h4>Chạm thẻ để xem chi tiết</h4><p>Mở thẳng tab báo cáo tương ứng. Kéo xuống để làm mới.</p></div></div>
+        </div>
+        <p class="src-note" data-v="srcNote"></p>
+      </div>
+    </div>
+  </div>
+  <template class="note">
+    <h6>Kịch bản</h6>
+    <p>Khi chạm biểu tượng Báo cáo, người dùng thấy ngay màn hình tổng quan. Phía trên là biểu đồ so sánh năm trước với năm nay theo từng kỳ, có thể đổi giữa doanh thu, giá bán bình quân và sản lượng. Phía dưới là 17 thẻ chỉ số của năm hiện hành, từ khách hàng, doanh thu đến hồ sơ DVKH. Chỉ cần nhìn một màn hình là nắm được tình hình chung. Khi cần đi sâu, người dùng chạm vào thẻ, ví dụ thẻ Doanh thu.</p>
+    <h6>Demo</h6>
+    <p>Mở tab Báo cáo. Bấm lần lượt 3 nút Doanh thu, Giá bán bình quân, Sản lượng. Vuốt ngang biểu đồ. Cuộn xuống các thẻ KPI, kéo xuống để làm mới.</p>
+  </template>
+</section>
+
+<!-- ============ 5. TỔNG QUAN → CHI TIẾT ============ -->
+<section class="scene" id="s5" data-steps="6" data-title="Tổng quan → chi tiết">
+  <div class="stage">
+    <div class="stage-inner">
+      <div class="head">
+        <span class="eyebrow"><i></i>Đi từ tổng quan đến chi tiết</span>
+        <h2 class="h2">Chạm một thẻ, mở đúng báo cáo</h2>
+      </div>
+      <div class="s5-grid" id="s5-grid">
+        <svg class="connector" id="s5-conn" aria-hidden="true"></svg>
+        <div class="s5-left" data-dim>
+          <div class="big-kpi" style="background:#00AD26" data-at="1" data-focus="1-4" id="s5-kpi-dt">
+            <div class="k-head"><i data-ic="money"></i>Doanh thu</div><b data-v="dt.total"></b><small data-v="dt.note"></small>
+          </div>
+          <div class="big-kpi" style="background:#0171CC" data-at="5" data-focus="5" id="s5-kpi-nho">
+            <div class="k-head"><i data-ic="swap"></i>Thay ĐHN cỡ nhỏ</div><b data-v="thayNho.total"></b><small>Số lượng thay ĐHN cỡ nhỏ</small>
+          </div>
+          <div class="big-kpi" style="background:#054D8E" data-at="5" data-focus="6" id="s5-kpi-lon">
+            <div class="k-head"><i data-ic="swap"></i>Thay ĐHN cỡ lớn</div><b data-v="thayLon.total"></b><small>Số lượng thay ĐHN cỡ lớn</small>
+          </div>
+        </div>
+        <div class="phone-stage">
+          <div class="phone-wrap" data-at="1"><div class="phone"><div class="scr" data-screen="detail" id="s5-scr"></div></div></div>
+        </div>
+        <div class="s5-right">
+          <div class="steps">
+            <div class="step" data-focus="1-2"><span class="n">1</span><div><h4>Chọn thẻ KPI</h4><p>Ví dụ thẻ Doanh thu ở màn tổng quan.</p></div></div>
+            <div class="step" data-focus="3"><span class="n">2</span><div><h4>Mở đúng tab</h4><p>Thanh 14 tab cuộn ngang, tab đang chọn in đậm, gạch chân.</p></div></div>
+            <div class="step" data-focus="4"><span class="n">3</span><div><h4>Báo cáo chi tiết</h4><p>KPI so với kế hoạch, biểu đồ hoặc bảng, bộ lọc riêng từng thẻ.</p></div></div>
+            <div class="step" data-focus="5-6"><span class="n">4</span><div><h4>Thay ĐHN mở sẵn đúng mục</h4><p>Thẻ cỡ nhỏ mở mục Cỡ nhỏ, thẻ cỡ lớn mở mục Cỡ lớn.</p></div></div>
+          </div>
+          <div class="tab-chips" id="s5-chips" data-at="3"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <template class="note">
+    <h6>Kịch bản</h6>
+    <p>Khi chạm thẻ Doanh thu, ứng dụng mở màn hình Báo cáo chi tiết và chọn sẵn tab Doanh thu. Màn hình chi tiết có 14 tab nằm trên một thanh cuộn ngang, người dùng có thể vuốt để chuyển qua lại. Mỗi tab giữ nguyên bộ lọc đã chọn khi chuyển tab. Riêng hai thẻ Thay ĐHN cỡ nhỏ và cỡ lớn cùng mở tab Thay ĐHN nhưng chọn sẵn đúng mục tương ứng, người dùng không phải thao tác thêm.</p>
+    <h6>Demo</h6>
+    <p>Chạm thẻ Doanh thu → kiểm tra tab Doanh thu được chọn. Quay lại, chạm thẻ Thay ĐHN cỡ lớn → kiểm tra mục Cỡ lớn được chọn sẵn. Vuốt ngang thanh tab.</p>
+  </template>
+</section>
+
+<!-- ============ 6. BỘ LỌC ============ -->
+<section class="scene" id="s6" data-steps="7" data-title="Bộ lọc &amp; tương tác">
+  <div class="stage">
+    <div class="stage-inner split rev">
+      <div>
+        <div class="head">
+          <span class="eyebrow"><i></i>Lọc và phân tích</span>
+          <h2 class="h2">Lọc dữ liệu theo nhu cầu</h2>
+        </div>
+        <div class="steps">
+          <div class="step" data-focus="1"><span class="n">1</span><div><h4>Nút lọc trên từng thẻ</h4><p>Đang lọc thì biểu tượng chuyển xanh, có chấm xanh.</p></div></div>
+          <div class="step" data-focus="2-3"><span class="n">2</span><div><h4>Chọn điều kiện</h4><p>Năm · Kỳ · Phường · Từ ngày – Đến ngày. Một số thẻ có thêm Đợt, Nội dung.</p></div></div>
+          <div class="step" data-focus="4-6"><span class="n">3</span><div><h4>Áp dụng → báo cáo cập nhật</h4><p>Chỉ thẻ đang lọc tải lại, các thẻ khác giữ nguyên.</p></div></div>
+          <div class="step" data-focus="7"><span class="n">4</span><div><h4>Kéo xuống để làm mới</h4><p>Lấy số liệu mới nhất từ hệ thống.</p></div></div>
+        </div>
+      </div>
+      <div class="phone-stage">
+        <div class="phone-wrap" data-at="0" id="s6-phone" data-cls="on-sheet:2-4; pulling:7">
+          <div class="phone"><div class="scr" data-screen="filter" id="s6-scr"></div></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <template class="note">
+    <h6>Kịch bản</h6>
+    <p>Mỗi thẻ báo cáo có nút lọc riêng. Người dùng chọn năm, kỳ, phường, hoặc khoảng ngày với các báo cáo theo ngày. Một số báo cáo có thêm điều kiện chuyên biệt như đợt đọc số hay nội dung đơn. Bấm Áp dụng thì chỉ thẻ đó tải lại, các thẻ khác không bị ảnh hưởng. Khi đang lọc, nút lọc đổi màu xanh để người dùng biết. Muốn lấy số liệu mới nhất, chỉ cần kéo màn hình xuống.</p>
+    <h6>Demo</h6>
+    <p>Tab Doanh thu → thẻ "Doanh thu theo đợt" → bấm phễu → chọn Kỳ, Phường → Áp dụng. Quan sát phụ đề và nút lọc đổi màu. Bấm "Xóa filter". Kéo xuống để làm mới.</p>
+  </template>
+</section>
+
+<!-- ============ 7. KINH DOANH ============ -->
+<section class="scene" id="s7" data-steps="5" data-title="Nhóm Kinh doanh">
+  <div class="stage">
+    <div class="stage-inner">
+      <div class="head">
+        <span class="eyebrow"><i></i>Nhóm 1 · Kinh doanh</span>
+        <h2 class="h2">Khách hàng, sản lượng, doanh thu, giá bán</h2>
+      </div>
+      <div class="biz" data-dim>
+        <article class="card" data-at="1" data-focus="1">
+          <div class="icon-badge" style="color:#B08A45;background:#F6EEDF"><i data-ic="users"></i></div>
+          <h3>Khách hàng</h3><p class="desc">Theo phường, phòng QLGT, cỡ ĐHN, giá biểu</p>
+          <div class="val" data-v="kh.total"></div>
+          <div class="hbar" data-chart="khPhuong"></div>
+        </article>
+        <article class="card" data-at="2" data-focus="2">
+          <div class="icon-badge" style="color:#0094A8;background:#DDF6FA"><i data-ic="drop"></i></div>
+          <h3>Sản lượng</h3><p class="desc">Theo năm, kỳ, đợt, ngày, giá biểu, nhân viên</p>
+          <div class="val" data-v="sl.total"></div>
+          <div class="meter" data-v="sl.meter"></div>
+          <div data-chart="slKy"></div>
+        </article>
+        <article class="card" data-at="3" data-focus="3">
+          <div class="icon-badge" style="color:#008A1F;background:#E0F5E5"><i data-ic="money"></i></div>
+          <h3>Doanh thu</h3><p class="desc">So với kế hoạch, theo kỳ và theo đợt</p>
+          <div class="val" data-v="dt.short"></div>
+          <div class="meter" data-v="dt.meter"></div>
+          <div data-chart="dtKy"></div>
+        </article>
+        <article class="card" data-at="4" data-focus="4">
+          <div class="icon-badge" style="color:#0E8F68;background:#DDF5EE"><i data-ic="tag"></i></div>
+          <h3>Giá bán bình quân</h3><p class="desc">GBBQ thực tế so với kế hoạch (VNĐ/m³)</p>
+          <div class="val" data-v="gbbq.total"></div>
+          <div class="meter" data-v="gbbq.meter"></div>
+          <div data-chart="gbbqKy"></div>
+        </article>
+      </div>
+      <p class="src-note" data-v="srcNote"></p>
+    </div>
+  </div>
+  <template class="note">
+    <h6>Kịch bản</h6>
+    <p>Nhóm kinh doanh gồm bốn tab. Tab Khách hàng cho biết số khách hàng theo phường, theo cỡ đồng hồ và theo giá biểu. Tab Sản lượng theo dõi lượng nước tiêu thụ so với kế hoạch, có cả xếp hạng nhân viên đọc số. Tab Doanh thu đối chiếu kết quả thực hiện với kế hoạch, theo kỳ và theo đợt. Tab Giá bán bình quân theo dõi GBBQ thực tế so với mục tiêu. Các con số trên màn hình là số liệu thật lấy từ hệ thống.</p>
+    <h6>Demo</h6>
+    <p>Tab Khách hàng: chạm tên một phường để lọc nhanh. Tab Sản lượng: mở khung "Sản lượng theo nhân viên", gõ tìm tên. Tab Doanh thu: chuyển Biểu đồ ↔ Bảng.</p>
+  </template>
+</section>
+
+<!-- ============ 8. VẬN HÀNH ============ -->
+<section class="scene" id="s8" data-steps="9" data-band="48" data-title="Nhóm Vận hành">
+  <div class="stage">
+    <div class="stage-inner">
+      <div class="head">
+        <span class="eyebrow"><i></i>Nhóm 2 · Vận hành</span>
+        <h2 class="h2">Thất thoát nước và công tác ĐHN</h2>
+      </div>
+      <div class="ops">
+        <div class="ops-list">
+          <div class="group-label">Thất thoát nước</div>
+          <div class="step" data-focus="1"><span class="n">A</span><div><h4>KPI &amp; so sánh 2 năm</h4></div></div>
+          <div class="step" data-focus="2"><span class="n">B</span><div><h4>Sản lượng &amp; thất thoát theo kỳ</h4></div></div>
+          <div class="step" data-focus="3"><span class="n">C</span><div><h4>TTN theo ĐHT mua bán sỉ</h4></div></div>
+          <div class="step" data-focus="4"><span class="n">D</span><div><h4>TTN theo ĐHT DMA</h4></div></div>
+          <div class="step" data-focus="5"><span class="n">E</span><div><h4>Số điểm bể đã sửa</h4></div></div>
+          <div class="group-label">Đồng hồ nước</div>
+          <div class="step" data-focus="6"><span class="n">1</span><div><h4>Gắn mới ĐHN</h4></div></div>
+          <div class="step" data-focus="7"><span class="n">2</span><div><h4>Dời ĐHN</h4></div></div>
+          <div class="step" data-focus="8-9"><span class="n">3</span><div><h4>Thay ĐHN cỡ nhỏ / cỡ lớn</h4></div></div>
+        </div>
+        <div class="frames">
+          <div class="card panel frame" data-at="1-1">
+            <h3>Tỷ lệ thất thoát nước</h3><p class="sub" data-v="ttn.sub"></p>
+            <div class="stat-row">
+              <div class="stat"><small>TTN hiện tại</small><b class="good" data-v="ttn.val"></b></div>
+              <div class="stat"><small>Kế hoạch tối đa</small><b data-v="ttn.kh"></b></div>
+              <div class="stat"><small>Đạt kế hoạch</small><b data-v="ttn.tile"></b></div>
+            </div>
+            <div style="margin-top:14px" data-chart="ttn2y"></div>
+          </div>
+          <div class="card panel frame" data-at="2-2">
+            <h3>Sản lượng &amp; lượng nước thất thoát theo kỳ</h3><p class="sub" data-v="ttnKy.sub"></p>
+            <div style="margin-top:14px" data-chart="ttnCombo"></div>
+          </div>
+          <div class="card panel frame" data-at="3-3">
+            <h3>TTN theo ĐHT mua bán sỉ</h3><p class="sub" data-v="ct.sub"></p>
+            <div class="size-switch"><span class="on">Chuẩn thu 1 (không TT)</span><span>Chuẩn thu 2 (có TT)</span></div>
+            <div class="stat-row" data-v="ct.stats"></div>
+          </div>
+          <div class="card panel frame" data-at="4-4">
+            <h3>TTN theo ĐHT DMA</h3><p class="sub" data-v="dma.sub"></p>
+            <div class="two">
+              <div><div class="donut-wrap" data-chart="dmaDonut"></div></div>
+              <div data-chart="vungLine"></div>
+            </div>
+          </div>
+          <div class="card panel frame" data-at="5-5">
+            <h3>Số điểm bể đã sửa · nguyên nhân</h3><p class="sub" data-v="be.sub"></p>
+            <div class="two" data-chart="beCause"></div>
+          </div>
+          <div class="card panel frame" data-at="6-6">
+            <h3>Gắn mới ĐHN</h3><p class="sub">Số lượng so với kế hoạch, phân bổ theo phường và cỡ</p>
+            <div class="stat-row" data-v="gm.stats"></div>
+            <div class="two"><div class="donut-wrap" data-chart="gmDonut"></div><div class="hbar" data-chart="gmCo"></div></div>
+          </div>
+          <div class="card panel frame" data-at="7-7">
+            <h3>Dời ĐHN theo phường</h3><p class="sub">Tổng số lượng dời thay đổi theo năm đã chọn</p>
+            <div class="two"><div class="donut-wrap" data-chart="doiDonut"></div><div class="hbar" data-chart="doiBar"></div></div>
+          </div>
+          <div class="card panel frame" data-at="8-8">
+            <h3>Thay ĐHN</h3>
+            <div class="size-switch"><span class="on">Cỡ nhỏ</span><span>Cỡ lớn</span></div>
+            <div class="stat-row" data-v="thayNho.stats"></div>
+            <div class="two"><div class="donut-wrap" data-chart="thayNhoDonut"></div><div class="hbar" data-chart="thayNhoBar"></div></div>
+          </div>
+          <div class="card panel frame" data-at="9-9">
+            <h3>Thay ĐHN</h3>
+            <div class="size-switch"><span>Cỡ nhỏ</span><span class="on">Cỡ lớn</span></div>
+            <div class="stat-row" data-v="thayLon.stats"></div>
+            <div class="two"><div class="donut-wrap" data-chart="thayLonDonut"></div><div class="hbar" data-chart="thayLonBar"></div></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <template class="note">
+    <h6>Kịch bản</h6>
+    <p>Nhóm vận hành bắt đầu với tab Thất thoát nước, gồm năm phần: chỉ số TTN so với kế hoạch, chi tiết sản lượng và lượng thất thoát theo kỳ, TTN theo đồng hồ tổng mua bán sỉ, TTN theo vùng DMA, và số điểm bể đã sửa kèm nguyên nhân. Tiếp đến là công tác đồng hồ nước: gắn mới so với kế hoạch, dời đồng hồ theo phường, và thay đồng hồ tách riêng cỡ nhỏ, cỡ lớn. Năm chọn ở một mục Thay ĐHN áp dụng cho cả hai mục.</p>
+    <h6>Demo</h6>
+    <p>Tab Thất thoát nước: chạm chú thích để ẩn/hiện dãy; đổi Chuẩn thu 1 ↔ 2; mở donut DMA. Tab Thay ĐHN: chuyển Cỡ nhỏ ↔ Cỡ lớn, đổi năm.</p>
+  </template>
+</section>
+
+<!-- ============ 9. KHÁCH HÀNG & CHUYỂN ĐỔI SỐ ============ -->
+<section class="scene" id="s9" data-steps="8" data-band="48" data-title="Dịch vụ KH &amp; Chuyển đổi số">
+  <div class="stage">
+    <div class="stage-inner">
+      <div class="head">
+        <span class="eyebrow"><i></i>Nhóm 3 &amp; 4 · Dịch vụ khách hàng · Chuyển đổi số</span>
+        <h2 class="h2">Hồ sơ, thu tiền, hóa đơn và kênh số</h2>
+      </div>
+      <div class="ops">
+        <div class="ops-list">
+          <div class="group-label">Dịch vụ khách hàng</div>
+          <div class="step" data-focus="1"><span class="n">1</span><div><h4>Hồ sơ DVKH / KTKS</h4></div></div>
+          <div class="step" data-focus="2-3"><span class="n">2</span><div><h4>Chưa xử lý / Đã xử lý · Nội dung đơn</h4></div></div>
+          <div class="step" data-focus="4"><span class="n">3</span><div><h4>Thu hộ tiền nước</h4></div></div>
+          <div class="step" data-focus="5-6"><span class="n">4</span><div><h4>Hóa đơn 0m³ · 1–4m³</h4></div></div>
+          <div class="group-label">Chuyển đổi số</div>
+          <div class="step" data-focus="7"><span class="n">5</span><div><h4>Định danh CCCD</h4></div></div>
+          <div class="step" data-focus="8"><span class="n">6</span><div><h4>KH đã tải app Sawaco</h4></div></div>
+        </div>
+        <div class="frames">
+          <div class="card panel frame" data-at="1-1">
+            <h3>Tỷ lệ xử lý hồ sơ</h3><p class="sub">Hồ sơ DVKH và hồ sơ Kiểm tra kiểm soát (KTKS)</p>
+            <div class="two">
+              <div><div class="donut-wrap" data-chart="dvkhDonut"></div><p class="legend" style="justify-content:center;margin-top:8px" data-v="dvkh.legend"></p></div>
+              <div><div class="donut-wrap" data-chart="ktksDonut"></div><p class="legend" style="justify-content:center;margin-top:8px" data-v="ktks.legend"></p></div>
+            </div>
+          </div>
+          <div class="card panel frame" data-at="2-3">
+            <h3>Danh sách nội dung đơn DVKH</h3><p class="sub" data-v="cxl.sub"></p>
+            <div style="margin-top:12px"><div class="toggle" id="s9-toggle"><span>Chưa xử lý</span><span>Đã xử lý</span></div></div>
+            <div class="hbar" style="margin-top:16px" data-chart="cxlBar" data-at="3"></div>
+          </div>
+          <div class="card panel frame" data-at="4-4">
+            <h3>Thu hộ tiền nước</h3><p class="sub">Xếp hạng đơn vị thu theo doanh thu</p>
+            <div class="stat-row" data-v="thuHo.stats"></div>
+            <div class="hbar" style="margin-top:16px" data-chart="thuHoBar"></div>
+          </div>
+          <div class="card panel frame" data-at="5-6">
+            <h3>Hóa đơn sản lượng thấp</h3><p class="sub">Theo kỳ đọc số, thẻ tự ẩn khi không có số liệu</p>
+            <div class="cmp" data-dim style="margin-top:14px">
+              <div class="card" data-focus="5"><small class="tag-demo">Hóa đơn 0m³</small><div class="val" style="font-size:26px;font-weight:800" data-v="hd0.total"></div></div>
+              <div class="card" data-focus="6"><small class="tag-demo">Hóa đơn 1–4m³</small><div class="val" style="font-size:26px;font-weight:800" data-v="hd14.total"></div></div>
+            </div>
+            <div class="frames" style="margin-top:14px">
+              <div class="frame" data-at="5-5" data-chart="hd0Bar"></div>
+              <div class="frame" data-at="6-6" data-chart="hd14Bar"></div>
+            </div>
+          </div>
+          <div class="card panel frame" data-at="7-7">
+            <h3>Định danh CCCD</h3><p class="sub">Phân bổ CCCD đã cập nhật theo phường</p>
+            <div class="stat-row" data-v="cccd.stats"></div>
+            <div class="hbar" style="margin-top:16px" data-chart="cccdBar"></div>
+          </div>
+          <div class="card panel frame" data-at="8-8">
+            <h3>Khách hàng đã tải app Sawaco</h3><p class="sub">Tỷ lệ tải app trên tổng khách hàng, phân bổ theo phường</p>
+            <div class="stat-row" data-v="app.stats"></div>
+            <div class="two"><div class="donut-wrap" data-chart="appDonut"></div><div class="hbar" data-chart="appBar"></div></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <template class="note">
+    <h6>Kịch bản</h6>
+    <p>Với dịch vụ khách hàng, tab Hồ sơ DVKH và Hồ sơ KTKS cho biết tổng hồ sơ, tỷ lệ đã xử lý và danh sách nội dung đơn chưa xử lý, lọc được theo khoảng ngày và nội dung. Tab Thu hộ xếp hạng các đơn vị và phương thức thu. Tab Hóa đơn theo dõi số hóa đơn 0m³ và 1 đến 4m³ để phát hiện bất thường. Ở nhóm chuyển đổi số, tab Định danh theo dõi tiến độ cập nhật CCCD, tab App Sawaco cho biết tỷ lệ khách hàng đã cài ứng dụng.</p>
+    <h6>Demo</h6>
+    <p>Tab Hồ sơ DVKH: chuyển Chưa xử lý ↔ Đã xử lý, lọc theo khoảng ngày. Tab Thu hộ: chọn Từ ngày – Đến ngày. Tab Hóa đơn: xem bảng có cột +/-.</p>
+  </template>
+</section>
+
+<!-- ============ 10. TRỰC QUAN HÓA ============ -->
+<section class="scene" id="s10" data-steps="8" data-band="45" data-title="Trực quan hóa &amp; trạng thái">
+  <div class="stage">
+    <div class="stage-inner">
+      <div class="head">
+        <span class="eyebrow"><i></i>Dữ liệu được trình bày thế nào</span>
+        <h2 class="h2">Trực quan hóa và trạng thái dữ liệu</h2>
+      </div>
+      <div class="viz" data-dim>
+        <article class="card" data-at="1" data-focus="1"><h4>Biểu đồ cột</h4><p>So sánh năm, kỳ, đợt</p><div data-chart="vizBar"></div></article>
+        <article class="card" data-at="2" data-focus="2"><h4>Cột + đường</h4><p>Tỷ lệ và khối lượng cùng lúc</p><div data-chart="vizCombo"></div></article>
+        <article class="card" data-at="3" data-focus="3"><h4>Donut</h4><p>Cơ cấu, chạm lát để xem %</p><div class="donut-wrap" style="max-width:150px" data-chart="vizDonut"></div></article>
+        <article class="card" data-at="4" data-focus="4"><h4>Bảng số liệu</h4><p>Cột +/-, dòng TC/TB</p><div style="overflow-x:auto" data-chart="vizTable"></div></article>
+      </div>
+      <div class="states" data-at="5">
+        <div>
+          <div class="state-flow" data-dim>
+            <span data-focus="5">Đang tải</span><em>→</em><span data-focus="6">Có dữ liệu</span><em>→</em><span data-focus="7">Không có dữ liệu</span><em>→</em><span data-focus="8">Thử lại</span>
+          </div>
+          <p class="src-note" style="font-size:14px">Tải quá 30 giây: khung xám tự tắt, hiện "Không tải được dữ liệu" và nút Thử lại.</p>
+        </div>
+        <div class="card state-box" id="state-box">
+          <div class="layer" data-at="5-5"><div class="skel"><i></i><i class="big"></i><i></i></div></div>
+          <div class="layer" data-at="6-6" data-chart="stateBar"></div>
+          <div class="layer" data-at="7-7"><div class="empty"><i data-ic="chart"></i><b>Không có dữ liệu</b><small>Đổi bộ lọc hoặc kéo xuống để làm mới</small></div></div>
+          <div class="layer retry-seq" data-at="8">
+            <div class="empty r-empty"><i data-ic="refresh"></i><b>Không tải được dữ liệu</b><span class="retry-btn hl">Thử lại</span></div>
+            <div class="r-skel skel"><i></i><i class="big"></i><i></i></div>
+            <div class="r-data" data-chart="stateBar2"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <template class="note">
+    <h6>Kịch bản</h6>
+    <p>Số liệu được trình bày bằng bốn hình thức: biểu đồ cột để so sánh, biểu đồ kết hợp cột và đường để xem tỷ lệ cùng khối lượng, biểu đồ donut cho cơ cấu, và bảng số liệu có cột chênh lệch, dòng tổng cộng. Mọi thẻ đều chuyển được giữa biểu đồ và bảng. Khi đang tải, hệ thống hiện khung xám. Khi không có dữ liệu thì báo rõ. Khi mạng chậm quá 30 giây thì có nút thử lại. Người dùng luôn biết hệ thống đang ở trạng thái nào.</p>
+    <h6>Demo</h6>
+    <p>Chạm một lát donut, giữ một cột để xem tooltip. Tắt mạng rồi kéo làm mới để thấy trạng thái lỗi và nút Thử lại.</p>
+  </template>
+</section>
+
+<!-- ============ 11. DEMO ============ -->
+<section class="scene" id="s11" data-steps="1" data-title="Demo ứng dụng">
+  <div class="stage">
+    <div class="stage-inner demo">
+      <img src="assets/logo.png" alt="Logo PHUWACO" data-at="0" class="from-scale">
+      <span class="demo-live" data-at="0">Demo trực tiếp</span>
+      <h2 data-at="0">Trải nghiệm trên <em>PHUWACO Works</em></h2>
+      <p class="lead" data-at="0">Mời anh chị theo dõi thao tác trên thiết bị thật.</p>
+      <div class="demo-path" data-at="1">
+        <span>Mở Báo cáo</span><i>→</i><span>Tổng quan</span><i>→</i><span>Chạm KPI</span><i>→</i><span>Lọc dữ liệu</span><i>→</i><span>Biểu đồ / Bảng</span><i>→</i><span>Làm mới</span>
+      </div>
+      <p class="data-src" data-at="1" data-v="srcNote"></p>
+    </div>
+  </div>
+  <template class="note">
+    <h6>Kịch bản</h6>
+    <p>Phần trình bày đã đi qua toàn bộ module, từ màn hình tổng quan đến 14 tab chi tiết. Bây giờ chúng tôi xin demo trực tiếp trên ứng dụng để anh chị kiểm tra thao tác và đối chiếu số liệu với nghiệp vụ. Trong lúc demo, anh chị có thể yêu cầu mở bất kỳ báo cáo hoặc bộ lọc nào.</p>
+    <h6>Demo</h6>
+    <p>Mở Báo cáo → kiểm tra tổng quan → chạm từng KPI → đổi bộ lọc vài thẻ tiêu biểu → chuyển Biểu đồ/Bảng → kéo làm mới → thử trạng thái mất mạng.</p>
+  </template>
+</section>
+
+</main>
+
+<aside class="notes" id="notes" aria-live="polite">
+  <div class="n-title"><span id="notes-title"></span><button type="button" id="notes-close">Đóng ✕</button></div>
+  <div id="notes-body"></div>
+</aside>
+
+<script src="data.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
